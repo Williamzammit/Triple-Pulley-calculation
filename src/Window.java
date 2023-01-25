@@ -155,15 +155,7 @@ public class Window extends JFrame{
                 lengthOutput.setText("" + calculateLength());
                 } catch (Exception f) {
                     //f.printStackTrace();
-                    c12Entry.setText("0");
-                    c13Entry.setText("0");
-                    c23Entry.setText("0");
-                    R1Entry.setText("0");
-                    R2Entry.setText("0");
-                    R3Entry.setText("0");
-                    angle1Entry.setText("0");
-                    angle2Entry.setText("0");
-                    angle3Entry.setText("0");
+                    lengthOutput.setText("Enter Only Numbers.");
                 }
                 
 
