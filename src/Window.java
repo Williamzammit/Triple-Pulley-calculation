@@ -95,7 +95,7 @@ public class Window extends JFrame{
     public void initializeMeasurementLabels(JTextField textField){
         textField.setOpaque(false);
         textField.setBorder(javax.swing.BorderFactory.createEmptyBorder());
-        textField.setFont(new Font("Matura MT Script Capitals", Font.PLAIN, 30));
+        textField.setFont(new Font("Serif", Font.PLAIN, 30));
         textField.setBounds(20, y, 80, 40);
         textField.setEditable(false);
         
